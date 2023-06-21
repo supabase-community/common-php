@@ -1,0 +1,23 @@
+{
+    "name": "supabase/common-php",
+    "description": "Supabase Environment setup for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Common\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robbieakoto",
+            "email": "akotoro22@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "9.6",
+        "allure-framework/allure-phpunit": "1.5"
+    }
+}
